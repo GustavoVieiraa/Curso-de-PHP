@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de possiveis valores da variavel</title>
+</head>
+<body>
+    <h1>Informe um valor e um operador para verificar os resultados:</h1>
+    <form method="get" action="ex015.php"><legend>Valores e Operador</legend>
+        <label for="numtxt">Informe número: </label> 
+        <input type="number" name="num" id="numtxt" required> <br>   
+        <fieldset> <legend>Escolha o operador:</legend> <br>
+            <input type="radio" name="operando" id="lbraiz" value="1" checked>
+            <label for="lbraiz">Raiz Quadrada</label>
+            <input type="radio" name="operando" id="lbdobro" value="2">
+            <label for="lbdobro">Dobro</label>
+            <input type="radio" name="operando" id="lbcubo" value="3">
+            <label for="lbcubo">Cubo</label>
+        </fieldset>
+        <input type="submit" value="Calcular">
+    </form>
+    <a href="http://localhost/Curso-de-PHP/">Voltar</a>
+    <a href="ex015.php">Avançar</a>
+</body>
+</html>
