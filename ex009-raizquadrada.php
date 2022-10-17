@@ -14,7 +14,7 @@
         <?php
             $num = $_GET["num"];
             $quad = sqrt($num);
-            echo "A raiz quadrada de $num é $quad";
+            echo "A raiz quadrada de $num é ".number_format($quad, 2);
         ?>
     </form>
 </body>
