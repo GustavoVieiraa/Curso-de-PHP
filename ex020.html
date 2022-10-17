@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Personalizavel</title>
+</head>
+<body>
+    <form method="get" action="ex020.php"> <legend>Informações Contador</legend>
+        <label for="lbinicio">Inicio: </label>
+        <input type="number" name="n_inicio" id="lbinicio" min="0" max="999"> <br>
+        <label for="lbfinal">Final: </label>
+        <input type="number" name="n_final" id="lbfinal" min="1" max="1000"> <br>
+        <label for="lbincremento">Incremento: </label>
+        <select name="inc" id="lbincremento">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br>
+        <input type="submit" value="criar contagem...">
+    </form>
+    <a href="http://localhost/Curso-de-PHP/">voltar</a>
+    <a href="ex020.php">avançar</a>
+</body>
+</html>
